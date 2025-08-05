@@ -84,12 +84,48 @@ const Navbar = () => {
         {isMenuOpen && (
           <div className="md:hidden bg-white border-t border-gray-200">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-              <a href="#" className="block px-3 py-2 text-gray-700 hover:text-indigo-600 hover:bg-indigo-50 rounded-md transition-colors duration-200">Home</a>
-              <a href="#" className="block px-3 py-2 text-gray-700 hover:text-indigo-600 hover:bg-indigo-50 rounded-md transition-colors duration-200">Women</a>
-              <a href="#" className="block px-3 py-2 text-gray-700 hover:text-indigo-600 hover:bg-indigo-50 rounded-md transition-colors duration-200">Men</a>
-              <a href="#" className="block px-3 py-2 text-gray-700 hover:text-indigo-600 hover:bg-indigo-50 rounded-md transition-colors duration-200">Watches</a>
-              <a href="#" className="block px-3 py-2 text-gray-700 hover:text-indigo-600 hover:bg-indigo-50 rounded-md transition-colors duration-200">Perfumes</a>
-              <a href="#" className="block px-3 py-2 text-gray-700 hover:text-indigo-600 hover:bg-indigo-50 rounded-md transition-colors duration-200">Collections</a>
+              <a
+                href="#"
+                className="block px-3 py-2 text-gray-700 hover:text-indigo-600 hover:bg-indigo-50 rounded-md transition-colors duration-200"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Home
+              </a>
+              <a
+                href="#"
+                className="block px-3 py-2 text-gray-700 hover:text-indigo-600 hover:bg-indigo-50 rounded-md transition-colors duration-200"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Women
+              </a>
+              <a
+                href="#"
+                className="block px-3 py-2 text-gray-700 hover:text-indigo-600 hover:bg-indigo-50 rounded-md transition-colors duration-200"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Men
+              </a>
+              <a
+                href="#"
+                className="block px-3 py-2 text-gray-700 hover:text-indigo-600 hover:bg-indigo-50 rounded-md transition-colors duration-200"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Watches
+              </a>
+              <a
+                href="#"
+                className="block px-3 py-2 text-gray-700 hover:text-indigo-600 hover:bg-indigo-50 rounded-md transition-colors duration-200"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Perfumes
+              </a>
+              <a
+                href="#"
+                className="block px-3 py-2 text-gray-700 hover:text-indigo-600 hover:bg-indigo-50 rounded-md transition-colors duration-200"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Collections
+              </a>
             </div>
             <div className="px-4 py-3 border-t border-gray-200">
               <div className="flex items-center space-x-4">
